@@ -13,3 +13,7 @@ try :
 except : 
     pass
 matplotlib.rcParams['axes.unicode_minus'] = False   
+
+
+## pandas 출력 옵션 설정
+pd.set_option('display.float_format', '{:.2f}'.format)
