@@ -17,3 +17,6 @@ matplotlib.rcParams['axes.unicode_minus'] = False
 
 ## pandas 출력 옵션 설정
 pd.set_option('display.float_format', '{:.2f}'.format)
+
+## 그래프 라벨 실수형 설정
+plt.ticklabel_format(axis='y', useOffset=False, style='plain')
