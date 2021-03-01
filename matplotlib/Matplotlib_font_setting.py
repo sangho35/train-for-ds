@@ -14,6 +14,9 @@ except :
     pass
 matplotlib.rcParams['axes.unicode_minus'] = False   
 
+# 
+plt.rc('font', family='Malgun Gothic')
+
 
 ## pandas 출력 옵션 설정
 pd.set_option('display.float_format', '{:.2f}'.format)
