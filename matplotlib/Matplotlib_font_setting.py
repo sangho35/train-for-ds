@@ -14,7 +14,7 @@ except :
     pass
 matplotlib.rcParams['axes.unicode_minus'] = False   
 
-# 
+## 한글 글꼴 설정
 plt.rc('font', family='Malgun Gothic')
 
 
